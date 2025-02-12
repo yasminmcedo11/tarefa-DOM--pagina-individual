@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*-------------------------------------------------------------------*/
+
+header {
+    height: 109px;
+    display: flex;
+    flex-direction: row;
+    padding: 28px 30px 28px 30px; /*em cima - direita - embaixo - esquerda */
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(219, 191, 219, 0.856);
+}
+
+header h1 {
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    color: black;
+}
+
+header nav {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+header nav a {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+main {
+    background-color: rgb(255, 236, 255);
+    height: 318px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 125px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foto img{
+    width: 247px;
+    height: 247px;
+    border-radius: 50%;
+}
+
+.apresentacao h2 {
+    font-size: 30px;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.apresentacao p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    color: black;
+    line-height: 20px;
+}
+
+/*-------------------------------------------------------*/
+
+body section {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+body section h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------*/
+
+.hobbies {
+    height: 289px;
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hobbies div {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.paragrafo h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.lista li {
+    background-color: rgb(243, 221, 243);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    color: black;
+    width: 74px;
+    height: 108px;
+    padding: 0px 17px 17px 17px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+    gap: 5px;    
+}
+
+
+#lista1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.classificacao {
+    background-color: rgb(243, 174, 243);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    color: black;
+    width: 19px;
+    height: 44px;
+    border-radius: 0px 0px 5px 5px;
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-------------------------------------------------------*/
+
+.feedback {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedback h2 {
+    font-size: 30px;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    font-weight: 540;
+}
+
+.feedback div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feedback input {
+    width: 1128px;
+    height: 56px;
+    background-color: rgb(255, 236, 255);
+    border-radius: 4px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    padding-left: 8px;
+}
+
+.feedback input::placeholder {
+    color: #454444;
+    font-size: 16px;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    padding-left: 5px;
+}
+
+.feedback textarea {
+    width: 1128px;
+    height: 56px;
+    background-color: rgb(255, 236, 255);
+    border-radius: 4px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    padding-left: 8px;
+}
+
+.feedback textarea::placeholder {
+    color: #454444;
+    font-size: 16px;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    justify-content: center;
+    padding: 20px 5px 20px 5px;
+}
+
+.feedback button {
+    width: 127px;
+    height: 37px;
+    border-radius: 4px;
+    border: none;
+    background-color:rgb(245, 200, 245);
+    color: black;
+    font-size: 16px;
+    font-weight: 16px;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    justify-content: flex-end;
+}
+
+.feedback nav {
+    width: 88%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*---------------------------------------------------------*/
+
+
+footer nav {
+    height: 127px;
+    background-color: rgb(245, 200, 245);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+}
+
+footer nav div:first-of-type {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer nav div:first-of-type img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+footer button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Não tá centralizando*/
+    text-align: center;
+    width: 162px;
+    height: 38px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+}
+
+footer button a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+}
+
+/*-------------- RESPONSIVIDADE --------------------------- */
+@media screen and (max-width: 430px) {
+    header nav {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        height: 584px;
+        gap: 40px;
+    }
+
+    .apresentacao h2 {
+        font-size: 24px;
+    }
+
+    .hobbies {
+        flex-direction: column;
+        height: 890px;
+        margin-left: 15px;
+    }
+
+    .lista {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        list-style-type: none;
+        gap: 25px;
+     }
+
+     #lista1 {
+        flex-direction: row;
+        gap: 25px;
+     }
+
+    .classificacao {
+        margin-left: 0px;
+    }
+
+    .feedback {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 30px;
+    }
+
+    .feedback textarea {
+        width: 373.75px;
+    }
+
+    .feedback input {
+        width: 373.75px;
+    }
+
+    .feedback nav {
+        justify-content: center;
+    }
+     
+    footer nav {
+        flex-direction: column-reverse;
+        gap: 30px;
+        justify-content: none;
+    }
+}
+
