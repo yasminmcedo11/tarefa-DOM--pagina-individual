@@ -382,6 +382,16 @@ footer button a {
         margin-left: 0px;
     }
 
+    .respostas {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 30px;
+    }
+
+    .respostas div {
+        width: 348px;
+    }
+
     .feedback {
         margin-left: 0px;
         margin-right: 0px;
