@@ -32,10 +32,10 @@
     <section class="hobbies">
             <!--5 hobbies (lista nao ordenada) -->
         <div>
-            <div>
+            <div class="paragrafo">
                 <h2>5 Hobbies</h2> 
             </div>
-            <div class="container">
+            <div>
                 <ul class="lista" id="lista1">
                     <li>Música</li>
                     <li>Séries</li>
@@ -49,8 +49,8 @@
             <div>
                 <h2>Séries favoritas</h2>
             </div>
-            <div class="container">
-                <ol class="lista" id="lista2">
+            <div>
+                <ol class="lista">
                     <li>
                         <div class="classificacao">1</div>
                         <div class="titulo">
@@ -78,13 +78,16 @@
     <form class="feedback"> 
         <h2>Feedbacks</h2>
         <div>
-            <textarea placeholder="Dê um feedback para esse desenvolvedor!" style="resize: none;" rows="6" cols="40" required></textarea> 
-            <input placeholder="Digite seu nome aqui" type="text" required> 
+            <textarea id="answer" placeholder="Dê um feedback para esse desenvolvedor!" style="resize: none;" rows="6" cols="40" required></textarea> 
+            <input id="nome" placeholder="Digite seu nome aqui" type="text" required> 
         </div> 
         <nav>
-            <button type="submit">Enviar</button> 
+            <button id="btn_enviar" type="submit">Enviar</button> 
         </nav>
     </form>
+    <section class="respostas">
+
+    </section>
     <footer>
         <nav>
             <div>
@@ -102,5 +105,6 @@
             </button>
         </nav>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

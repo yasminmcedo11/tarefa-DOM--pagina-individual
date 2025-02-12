@@ -256,6 +256,41 @@ body section h2 {
     flex-direction: row-reverse;
 }
 
+.respostas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+    gap: 20px;
+}
+
+.respostas div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 236, 255);
+    padding: 15px;
+    width: 1104px;
+    border-radius: 6px;
+}
+
+.respostas div h2 {
+    font-size: 24px;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.respostas div p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Darker Grotesque', Helvetica, sans-serif;
+    font-weight: 400;
+    overflow-wrap: break-word;
+}
+
 /*---------------------------------------------------------*/
 
 
@@ -265,6 +300,7 @@ footer nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 16px 32px 16px 32px;
 }
 
@@ -322,6 +358,10 @@ footer button a {
         flex-direction: column;
         height: 890px;
         margin-left: 15px;
+    }
+
+    .paragrafo {
+        align-items: flex-start;
     }
 
     .lista {
